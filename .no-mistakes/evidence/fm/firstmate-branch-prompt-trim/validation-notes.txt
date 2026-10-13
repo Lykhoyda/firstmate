@@ -1,0 +1,9 @@
+Target: 32b29a471191c308f84f833377576569d8efd43b
+Base: 7df545bf74ff729ed1733f77b0aea02a9b164ac1
+Real installed Pi SDK 1.2.0, Node 24.14.0, disposable marked FM_HOME inside worktree, in-memory settings, isolated agent directory, local HTTP/SSE model endpoint. No operator credentials or fleet state used.
+Live driver: bin/fm-lab-home.sh create "$PWD/.phase-live/home"; PATH=/Users/antonlykhoyda/.nvm/versions/node/v24.14.0/bin:$PATH node .phase-live/live.mjs
+Base reproduction: git show 7df545bf:.pi/extensions/fm-branch-supervision.ts > .pi/extensions/.phase-base.ts; run same driver with /.pi/extensions/.phase-base.ts argument and a fresh marked home. Expected extension error was observed; target emitted none.
+Malformed prompts were sent through the real Pi ExtensionRunner.emit interface, not a stub. Normal and promptless turns used AgentSession public interfaces. Branch mirror was read from real persisted Pi session JSONL after a heartbeat branch run; local provider performed the real fm_branch_report tool call to settle the probe.
+Focused repository check: generated tests/.phase-targeted.sh with existing test definitions and only test_requested_healthy_outcome_and_unsolicited_routine_outcome_delivery invoked. First attempt on ambient Node 26.8.1 timed out at requested result 3 acknowledgement; rerun on Node 24.14.0 passed unchanged. This check stubs Pi SDK and is supplemental, not live evidence.
+Two earlier live-probe setup attempts failed because the local endpoint did not report a durable branch outcome, then because the wake queue was missing; disposable fixture corrected and scenarios re-driven successfully.
+No rendered UI changed; evidence captures extension diagnostics and persisted conversation content. No TUI or screenshots used. All disposable worktree lab data, generated selector script, and base extension copy removed after validation. Broad suite, lint, publication, and CI are outer-executor phases and were not run.

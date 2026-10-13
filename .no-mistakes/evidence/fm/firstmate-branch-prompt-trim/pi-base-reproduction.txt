@@ -1,0 +1,25 @@
+EXTENSIONS [
+  '/Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/.phase-base.ts',
+  '<inline:1>'
+]
+EXTENSION_ERROR {"extensionPath":"/Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/.phase-base.ts","event":"before_agent_start","error":"Cannot read properties of undefined (reading 'trim')","stack":"TypeError: Cannot read properties of undefined (reading 'trim')\n    at /Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/.phase-base.ts:1686:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async ExtensionRunner.emitBeforeAgentStart (file:///Users/antonlykhoyda/.nvm/versions/node/v24.14.0/lib/node_modules/@earendil-works/pi-coding-agent/dist/core/extensions/runner.js:1141:43)\n    at async AgentSession._prepareRun (file:///Users/antonlykhoyda/.nvm/versions/node/v24.14.0/lib/node_modules/@earendil-works/pi-coding-agent/dist/core/agent-session.js:1456:24)\n    at async AgentSession._startRun (file:///Users/antonlykhoyda/.nvm/versions/node/v24.14.0/lib/node_modules/@earendil-works/pi-coding-agent/dist/core/agent-session.js:1396:24)\n    at async AgentSession.sendCustomMessage (file:///Users/antonlykhoyda/.nvm/versions/node/v24.14.0/lib/node_modules/@earendil-works/pi-coding-agent/dist/core/agent-session.js:1840:13)\n    at async file:///Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.phase-live/live.mjs:34:2"}
+PROMPTLESS_START {"hasPrompt":false,"prompt":null,"messageType":"custom"}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+1 !== 0
+
+    at file:///Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.phase-live/live.mjs:35:165
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 1,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.14.0

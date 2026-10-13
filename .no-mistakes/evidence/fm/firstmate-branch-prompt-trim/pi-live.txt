@@ -1,0 +1,10 @@
+EXTENSIONS [
+  '/Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/fm-branch-supervision.ts',
+  '<inline:1>'
+]
+PROMPTLESS_START {"hasPrompt":false,"prompt":null,"messageType":"custom"}
+PROMPTLESS_RESULT survived; owner activation confirmed; assistant LAB_OK
+MALFORMED_RESULT real Pi event runner accepted undefined, null, number, object, empty and whitespace prompts without errors
+PERSISTED_MIRROR ["[main] LAB_OK","[captain] captain mirror marker","[main] LAB_OK","[main] LAB_OK"]
+MIRROR_RESULT captain prompt mirrored once; custom promptless and operational turns excluded
+MODEL_REQUESTS 5
