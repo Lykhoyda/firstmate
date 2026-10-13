@@ -1679,7 +1679,7 @@ ${context.command}
     // This event is Pi's authoritative complete current prompt. At this point
     // SessionManager still contains only the preceding dialog, so relying on
     // getEntries() here loses the captain request that the next wake may answer.
-    // Stage it verbatim and remember the future persisted index for turn_end's
+    // Stage its trimmed text and remember the future persisted index for turn_end's
     // duplicate suppression. Operational extension injections are not dialog.
     processingOpenedThisRun =
       event.messageType === "custom" &&
