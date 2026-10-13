@@ -1053,7 +1053,7 @@ const mainCtx = {
     getEntries: () => entries,
   },
 };
-for (const event of [{}, { prompt: undefined }, { prompt: null }, { prompt: 42 }, { prompt: {} }]) {
+for (const event of [{}, { messageType: "user" }, ...[undefined, null, 42, {}].map((prompt) => ({ messageType: "user", prompt }))]) {
   await fire("before_agent_start", event, mainCtx);
 }
 const operational = spawnSync(
