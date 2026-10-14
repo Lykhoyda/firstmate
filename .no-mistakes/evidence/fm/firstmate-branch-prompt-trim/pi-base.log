@@ -1,0 +1,51 @@
+EXTENSIONS [
+  '/Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/local-base-branch.ts',
+  '/Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/local-base-watch.ts',
+  '<inline:lab-bus-probe>'
+] LOAD_ERRORS []
+PROMPTLESS_CUSTOM_TURN completed; provider requests=1; extension errors=0
+EXTENSION_ERROR {
+  extensionPath: '/Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/local-base-branch.ts',
+  event: 'before_agent_start',
+  error: "Cannot read properties of undefined (reading 'trim')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'trim')\n" +
+    '    at /Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/local-base-branch.ts:1690:34\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n' +
+    '    at async ExtensionRunner.emitBeforeAgentStart (file:///Users/antonlykhoyda/.nvm/versions/node/v24.14.0/lib/node_modules/@earendil-works/pi-coding-agent/dist/bundle/chunks/chunk-TJXZSVTD.js:523:27033)\n' +
+    '    at async file:///Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.test-live-pi/driver.mjs:39:46\n' +
+    '    at async file:///Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.test-live-pi/driver.mjs:35:1'
+}
+EXTENSION_ERROR {
+  extensionPath: '/Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/local-base-branch.ts',
+  event: 'before_agent_start',
+  error: "Cannot read properties of null (reading 'trim')",
+  stack: "TypeError: Cannot read properties of null (reading 'trim')\n" +
+    '    at /Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/local-base-branch.ts:1690:34\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n' +
+    '    at async ExtensionRunner.emitBeforeAgentStart (file:///Users/antonlykhoyda/.nvm/versions/node/v24.14.0/lib/node_modules/@earendil-works/pi-coding-agent/dist/bundle/chunks/chunk-TJXZSVTD.js:523:27033)\n' +
+    '    at async file:///Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.test-live-pi/driver.mjs:39:46\n' +
+    '    at async file:///Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.test-live-pi/driver.mjs:35:1'
+}
+EXTENSION_ERROR {
+  extensionPath: '/Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/local-base-branch.ts',
+  event: 'before_agent_start',
+  error: 'event.prompt.trim is not a function',
+  stack: 'TypeError: event.prompt.trim is not a function\n' +
+    '    at /Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/local-base-branch.ts:1690:34\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n' +
+    '    at async ExtensionRunner.emitBeforeAgentStart (file:///Users/antonlykhoyda/.nvm/versions/node/v24.14.0/lib/node_modules/@earendil-works/pi-coding-agent/dist/bundle/chunks/chunk-TJXZSVTD.js:523:27033)\n' +
+    '    at async file:///Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.test-live-pi/driver.mjs:39:46\n' +
+    '    at async file:///Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.test-live-pi/driver.mjs:35:1'
+}
+EXTENSION_ERROR {
+  extensionPath: '/Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/local-base-branch.ts',
+  event: 'before_agent_start',
+  error: 'event.prompt.trim is not a function',
+  stack: 'TypeError: event.prompt.trim is not a function\n' +
+    '    at /Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/local-base-branch.ts:1690:34\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n' +
+    '    at async ExtensionRunner.emitBeforeAgentStart (file:///Users/antonlykhoyda/.nvm/versions/node/v24.14.0/lib/node_modules/@earendil-works/pi-coding-agent/dist/bundle/chunks/chunk-TJXZSVTD.js:523:27033)\n' +
+    '    at async file:///Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.test-live-pi/driver.mjs:39:46\n' +
+    '    at async file:///Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.test-live-pi/driver.mjs:35:1'
+}
+BASE_REGRESSION reproduced trim failure via real extension runner

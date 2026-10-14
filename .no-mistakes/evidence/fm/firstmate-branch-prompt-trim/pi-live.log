@@ -1,0 +1,10 @@
+EXTENSIONS [
+  '/Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/fm-branch-supervision.ts',
+  '/Users/antonlykhoyda/.no-mistakes/worktrees/85e4fc3a5051/01M4VEF2V9HW3RQZZK5TD3QPZD/.pi/extensions/fm-primary-pi-watch.ts',
+  '<inline:lab-bus-probe>'
+] LOAD_ERRORS []
+PROMPTLESS_CUSTOM_TURN completed; provider requests=1; extension errors=0
+MALFORMED_USER_EVENTS undefined/null/number/object accepted by real runner without extension errors
+CAPTAIN_USER_TURN completed; provider requests=2; extension errors=0
+BRANCH_MIRROR ["[main] LAB_TURN_COMPLETED","[captain] Captain normal live prompt","[main] LAB_TURN_COMPLETED"]
+CAPTAIN_MIRROR trimmed once; custom/malformed inputs absent
