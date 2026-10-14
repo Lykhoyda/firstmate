@@ -360,7 +360,7 @@ Mirroring happens at two points:
 
 - The idle path mirrors at main's turn end.
 - At `before_agent_start`, Pi's authoritative captain prompt is staged with surrounding whitespace trimmed before SessionManager persists that user entry.
-  Missing or non-string prompts are treated as empty and skipped.
+  Non-user events and missing or non-string prompts are skipped.
   The complete current captain message therefore precedes any branch wake accepted after that boundary.
   The later persisted copy is suppressed, and older dialog entries remain bounded.
 
